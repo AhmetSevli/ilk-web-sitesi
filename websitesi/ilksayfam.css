@@ -1,3 +1,5 @@
+@import url('hpttps://fonts.googleapis.com//css2?familiy=Roboto:wght@100&display=swap');
+
 *{
 
     margin:0 ;
@@ -5,7 +7,7 @@
 }
 
 .üst çubuk{
-    background:url(indir.jpeg) ;
+    background:url(siyah-ekran-1.jpg) ;
     height:100vh ;
     background-size: 100% 100%;
 }
@@ -21,6 +23,52 @@
 
 
     float:right;
-    margin-right: 25px;
+    margin-right: 25px ;
+
+}
+
+.seçenekler.amblem{
+
+    display: inline-block;
+    margin-left: 50px;
+    margin-top:20px ;
+
+}
+
+.seçenekler.amblem a{
+
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+
+    color:blue;
+
+}
+
+.seçenekler ul li{
+
+    list-style: none;
+    display: inline-block;
+
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+
+.seçenekler ul li a{
+
+    color:white;
+    text-decoration: none;
+
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family:Roboto ;
+
+
+}
+.seçenekler ul li a.active ,
+.seçenekler ul li a:hover{
+
+background:red ;
 
 }
