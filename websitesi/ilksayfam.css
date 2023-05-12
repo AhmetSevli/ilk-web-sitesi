@@ -1,4 +1,4 @@
-@import url('hpttps://fonts.googleapis.com//css2?familiy=Roboto:wght@100&display=swap');
+
 
 *{
 
@@ -6,20 +6,20 @@
     padding: 0;
 }
 
-.üst çubuk{
-    background:url(siyah-ekran-1.jpg) ;
+.container{
+    background:black;
     height:100vh ;
     background-size: 100% 100%;
 }
 
-.üstçubuk.seçenekler{
+.container.navbar{
 
     width:100%;
     height:90px ;
     background-color:white ;
 }
 
-.seçenekler ul {
+.navbar ul {
 
 
     float:right;
@@ -27,7 +27,7 @@
 
 }
 
-.seçenekler.amblem{
+.navbar.amblem{
 
     display: inline-block;
     margin-left: 50px;
@@ -35,7 +35,7 @@
 
 }
 
-.seçenekler.amblem a{
+.navbar.amblem a{
 
     text-decoration: none;
     font-size: 30px;
@@ -45,7 +45,7 @@
 
 }
 
-.seçenekler ul li{
+.navbar ul li{
 
     list-style: none;
     display: inline-block;
@@ -55,20 +55,26 @@
 
 }
 
-.seçenekler ul li a{
+.navbar ul li a{
 
     color:white;
     text-decoration: none;
 
     font-size: 20px;
     padding: 6px 13px;
-    font-family:Roboto ;
+    font-family:sans-serif ;
 
 
 }
-.seçenekler ul li a.active ,
-.seçenekler ul li a:hover{
+.navbar ul li a.active ,
+.navbar ul li a:hover{
 
 background:red ;
+border-radius: 2px;
+}
 
+.container.merkez{
+    position: absolute;
+    top:59%;
+    
 }
